@@ -1,0 +1,86 @@
+ 1  echo "# javascript" >> README.md
+    2  git init
+    3  git add README.md
+    4  git commit =m "first commit"
+    5  git commit -m "first commit"
+    6  git config --global user.email "chandra.pothireddy.lynda@gmail.com"
+    7  git config --global user.name "chandrapothireddy-tech"
+    8  git commit -m "first commit"
+    9  git logs
+   10  git log
+   11  cls
+   12  clear
+   13  git push -u origin master
+   14  git remote add origin https://github.com/chandrapothireddy-tech/javascript.git
+   15  git push -u origin master
+   16  cls
+   17  clear
+   18  vi first.txt
+   19  git add first.txt
+   20  git commit -m "first file added"
+   21  git push origin master
+   22  git checkout -b chandra-dev
+   23  ls
+   24  git remote add chandra-dev
+   25  git remote add chandra-dev master
+   26  git remote -v
+   27  git checkout -b chandra-dev
+   28  git push origin chandra-dev
+   29  vi second.txt
+   30  git status
+   31  git status
+   32  git push origin chandra-dev
+   33  git merge master
+   34  git status
+   35  git fetch origin
+   36  git checkout -b chandra-dev origin/chnadra-dev/
+   37  git checkout -b chandra-dev-1
+   38  ls
+   39  vi second.txt
+   40  git push origin chandra-dev-1
+   41  git status
+   42  git push origin chandra-dev-1
+   43  git checkout -b chandra-dev
+   44  git checkout chandra-dev
+   45  vi second.txt
+   46  git push origin chandra-dev
+   47  git add .
+   48  git commit -m "shouyld get pblm"
+   49  git push origin chandra-dev
+   50  git pull origin chandra-dev-1
+   51  git pull origin chandra-dev-1
+   52  git status
+   53  git add .
+   54  git commit -m "solved confilt"
+   55  git pull origin chandra-dev-1
+   56  clear
+   57  git status
+   58  git add .
+   59  git commit -m "new index.html file "
+   60  git push origin
+   61  git push origin chandra-dev
+   62  git push origin chandrbranch
+   63  git checkout chandra-dev-1
+   64  vi four.txt
+   65  git add .
+   66  git commit -m "this fourth file"
+   67  git push origin chandra-nr-dev-1
+   68  git push origin chandra-dev-1
+   69  clear
+   70  ls
+   71  vi five.txt
+   72  git add .
+   73  git commit -m "this is fifth commit"
+   74  ls
+   75  git checkout master
+   76  ls
+   77  git pull origin master
+   78  ls
+   79  git checkout chandra-dev-1
+   80  ls
+   81  git log
+   82  git checkout master
+   83  git cherry-pick 01ac3e6038504911f79c30c22622103e253aa68f
+   84  ls
+   85  git push origin master
+   86  history
